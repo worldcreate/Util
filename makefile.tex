@@ -1,0 +1,12 @@
+SRC=$(wildcard *.tex) 
+OBJS = $(SRC:.tex=.pdf)
+.SUFFIXES:	.tex .dvi .pdf
+# 生成規則 
+all: $(OBJS)
+
+clean:
+	rm -f *.dvi *.pdf *.aux *.log
+.tex.dvi:
+	platex $<
+.dvi.pdf:
+	dvipdfmx $<
