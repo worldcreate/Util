@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"draw_white_space": "all",
+	"font_face": "Ricty",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_encoding": true,
+	"tab_size": 4
+}
