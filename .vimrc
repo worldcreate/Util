@@ -18,3 +18,5 @@ set smartindent
 set smarttab
 
 set cursorline
+
+set encoding=utf-8
