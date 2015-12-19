@@ -1,0 +1,14 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontFamily":"Ricty",
+	"editor.renderWhitespace":true,
+	"editor.fontSize":12,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"files.exclude":{
+		"**/*.o":true,
+		"**/.gitignore":true,
+		"**/*.exe":true
+	},
+	"git.path":"C:\\cygwin64\\bin\\git.exe"
+}
